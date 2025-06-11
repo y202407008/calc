@@ -1,2 +1,2 @@
 #pragma once
-int add(int x, int y);
+int mod(int x, int y);
