@@ -1,6 +1,10 @@
-#include "add.h"
+#include "sub.h"
 
-int add(int x, int y)
-{
-	return 0;
+int dive(int x, int y) {
+    int count = 0;
+    while (x >= y) {
+        x = sub(x, y);
+        count++;
+    }
+    return count;
 }
